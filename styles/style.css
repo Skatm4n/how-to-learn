@@ -276,7 +276,7 @@ h1,h2,h3,h4,h5,h6,p{
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .logo_place_footer{

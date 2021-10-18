@@ -9,6 +9,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.header__title, .header__subtitle, .two-columns__brief, .two-columns__paragraph, .two-columns__span-accent, .section-title, .section-subtitle, .table__heading, .table__text, .feynman__title, .feynman__link, .footer__author, .footer__column-heading, .footer__column-links, .footer__column-link{
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -25,8 +30,6 @@
 }
 
 .header__title{
-  margin: 0;
-  padding: 0;
   width: 730px;
   align-self: center;
   margin-left: 64px;
@@ -37,8 +40,6 @@
 }
 
 .header__subtitle{
-  margin: 0;
-  padding: 0;
   position: absolute;
   width: 388px;
   left: 64px;
@@ -84,8 +85,6 @@
 }
 
 .two-columns__brief{
-  margin: 0;
-  padding: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
@@ -99,8 +98,6 @@
 }
 
 .two-columns__paragraph{
-  margin: 0;
-  padding: 0;
   margin-bottom: 30px;
   line-height: 34px;
   font-size: 24px;
@@ -112,8 +109,6 @@
 }
 
 .two-columns__span-accent{
-  margin: 0;
-  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -125,8 +120,6 @@
 }
 
 .section-title{
-  margin: 0;
-  padding: 0;
   width: 60%;
   margin: 0 auto 20px;
   display: flex;
@@ -137,8 +130,6 @@
 }
 
 .section-subtitle{
-  margin: 0;
-  padding: 0;
   width: 60%;
   margin: auto;
   display: flex;
@@ -165,16 +156,12 @@
 }
 
 .table__heading{
-  margin: 0;
-  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text{
-  margin: 0;
-  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -194,8 +181,6 @@
 }
 
 .feynman__title{
-  margin: 0;
-  padding: 0;
   width: 648px;
   margin: auto;
   line-height: 1.15;
@@ -207,8 +192,6 @@
 }
 
 .feynman__subtitle{
-  margin: 0;
-  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -218,8 +201,6 @@
 }
 
 .feynman__link{
-  margin: 0;
-  padding: 0;
   position: absolute;
   line-height: 51px;
   font-size: 36px;
@@ -306,8 +287,6 @@
 }
 
 .footer__author{
-  margin: 0;
-  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -316,8 +295,6 @@
 }
 
 .footer__column-heading{
-  margin: 0;
-  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -325,16 +302,12 @@
 }
 
 .footer__column-links{
-  margin: 0;
-  padding: 0;
   margin: 20px 0 16px;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column-link{
-  margin: 0;
-  padding: 0;
   color: white;
   text-decoration: none;
   line-height: 30px;
